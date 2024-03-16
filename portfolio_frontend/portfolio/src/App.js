@@ -24,16 +24,34 @@ function App() {
       setIsloading(false)
     }
   }
-  return (
-    <div className="App">
-      
-      <header className="header">
-      </header>
-      <nav className='navBar'>
-        <button  onClick={clickhandler}>click me</button>
-      </nav>
-    </div>
-  );
+return (
+  <div className="App">
+    <header className="header">
+      <input type="text" placeholder="Enter search term"  />
+      <button onClick={() => clickhandler()}>Search</button>
+    </header>
+    <nav className="navBar">
+      {isloading ? (
+        <p>Loading...</p>
+      ) : getData?.length > 0 ? (
+        <ul>
+          {getData.map((item) => (
+            <ul key={item.id}>
+              <li>{item.name} | {item.email}</li>
+              <li>
+              <img src={`url(${item.image})`} alt="{item.name} Image" onError={(event) => {
+              }} />
+              </li>
+            </ul>
+          ))}
+        </ul>
+      ) : (
+        <p>No results found.</p>
+      )}
+    </nav>
+  </div>
+);
+
 }
 
 export default App;
