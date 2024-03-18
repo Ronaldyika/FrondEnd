@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.formComtainer{
+  padding: 10px;
+  margin: 8px;
+}
+.fields{
+  padding: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fields input{
+  width: 40rem;
+}
+.btn{
+  background-color: rgb(8, 51, 37);
+  width: 5rem;
+  height: 2rem;
+  margin-left: 20%;
+  border-radius: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.mainbody{
+  background-color: gray;
+  max-width: fit-content;
+  margin-left: 5%;
+  padding: 4%;
+  margin: auto;
+  margin-top: 12%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  align-content: center;
+  border-radius: 2rem;
+  justify-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.count{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  height: 2rem;
+  margin-bottom: 2%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 3%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.functionbody{
+  margin: 8px;
+  margin-top: 6rem;
+  padding: 2px;
+}
+.increment{
+  background-color: rgb(24, 36, 24);
+  padding: 5px;
+  border-radius: 2rem;
+  color: wheat;
+}
+.decrement {
+  background-color: rgb(114, 145, 146);
+  padding: 5px;
+  border-radius: 2rem;
+  color: rgb(204, 140, 43);
 }

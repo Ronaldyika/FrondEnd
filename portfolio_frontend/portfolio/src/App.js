@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState} from 'react';
 import DayOne from './learning/DayOne';
+import DayOneCounter from './learning/DayOneCounter';
 // import React,{useState} from 'react';
 
 function App() {
@@ -51,7 +52,8 @@ return (
   //     )}
   //   </nav>
   // </div>
-  <DayOne/>
+  // <DayOne/>
+  <DayOneCounter/>
 );
 
 }
