@@ -3,6 +3,7 @@ import './App.css';
 import { useState} from 'react';
 import DayOne from './learning/DayOne';
 import DayOneCounter from './learning/DayOneCounter';
+import GetRequest from './learning/GetRequest';
 // import React,{useState} from 'react';
 
 function App() {
@@ -53,7 +54,8 @@ return (
   //   </nav>
   // </div>
   // <DayOne/>
-  <DayOneCounter/>
+  // <DayOneCounter/>
+  <GetRequest/>
 );
 
 }
