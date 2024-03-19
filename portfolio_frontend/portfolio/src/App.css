@@ -60,3 +60,35 @@
   border-radius: 2rem;
   color: rgb(204, 140, 43);
 }
+
+.screenDisplay{
+  height: 40px;
+  width: 250px;
+  background-color: antiquewhite;
+  border-radius: 0.2rem;
+  padding: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mainContent{
+  height:300px;
+  width: fit-content;
+  background-color: rgb(5, 5, 5);
+  margin: auto;
+  margin-top: 5rem;
+  padding: 8px;
+}
+
+.buttons{
+  padding: 2px;
+
+}
+
+.buttons button{
+  padding: 8px;
+  border-radius: 1rem;
+  width: 60px;
+  margin-left: 4px;
+}

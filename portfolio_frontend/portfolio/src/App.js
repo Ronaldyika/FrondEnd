@@ -4,6 +4,7 @@ import { useState} from 'react';
 import DayOne from './learning/DayOne';
 import DayOneCounter from './learning/DayOneCounter';
 import GetRequest from './learning/GetRequest';
+import Calculator from './learning/Calculator';
 // import React,{useState} from 'react';
 
 function App() {
@@ -55,7 +56,8 @@ return (
   // </div>
   // <DayOne/>
   // <DayOneCounter/>
-  <GetRequest/>
+  // <GetRequest/>
+  <Calculator/>
 );
 
 }
